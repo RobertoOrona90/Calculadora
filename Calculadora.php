@@ -407,7 +407,7 @@
                     const $elem = elem.get(0);
                     var opt = {
                         filename: "AsesoríaPatrimonial.pdf",
-                        margin:  screen.width < 600 ? mobileMargin : desktopMargin;,
+                        margin:  screen.width < 600 ? mobileMargin : desktopMargin,
                         image: {
                             type: 'jpeg',
                             quality: 0.98
