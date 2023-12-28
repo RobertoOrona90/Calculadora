@@ -237,12 +237,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
     <script>
-        console.log('aqui');
-        console.log(screen.width);
-        if (screen.width<610)
-        {
-            window.location.href = "https://apasesoriapatrimonial.com/CalculadoraMobile?w="+screen.width;
-        }
         const isNum = (val) => {
             return typeof val === 'number' ? val : Number.isNaN(parseFloat(val)) ? 0 : parseFloat(val);
         };
@@ -311,8 +305,6 @@
                 },
                 calc() {
                     $('#tblAP').show();
-                    
-
                     let self = this,
                         swbb = Swal.mixin({
                             customClass: {
@@ -407,16 +399,15 @@
                     }
                 },
                 imprimir() {
-
                     let self = this,
                         elem = $('#table-section').clone();
-
+                    const mobileMargin = [.1, .2, 0.8, .2];
+                    const desktopMargin = [.8, .2, 1, .2]; 
                     elem.find('.dtf-d-none').removeClass('dtf-d-none');
                     const $elem = elem.get(0);
-
                     var opt = {
                         filename: "AsesoríaPatrimonial.pdf",
-                        margin:  [.8, .2, 1, .2],
+                        margin:  screen.width < 600 ? mobileMargin : desktopMargin;,
                         image: {
                             type: 'jpeg',
                             quality: 0.98
