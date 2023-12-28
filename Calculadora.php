@@ -16,90 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <style rel="stylesheet">
-
-        .bg-cdr {
-            background-color: rgb(17, 36, 105) !important
-        }
-		#tblAP > tbody > tr
-        {
-            font-size: 13px;
-        }
-
-        .table-striped>tbody>tr:nth-of-type(odd) {
-            background-color: rgb(250, 250, 250);
-        }
-
-        .card-img {
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0
-        }
-
-        .swal2-confirm {
-            text-decoration: none
-        }
-
-        .dtf-d-none {
-            display: none
-        }
-
-        .table-contacto td,
-        .table-contacto th {
-            color: rgb(17, 36, 105) !important
-        }
-
-        .table-sm>:not(caption)>*>* {
-            padding-top: 1px;
-            padding-bottom: 1px
-        }
-
-        .text-color {
-            color: black
-        }
-
-        .text-leyend {
-            font-style: italic;
-            font-size: 1.1em !important
-        }
-
-        .text-resumen {
-            font-weight: 600;
-            font-size: 14px;
-            color: black;
-        }
-
-        .text-leyenda {
-            color: black;
-            font-weight: 600;
-            font-size: 0.8rem
-        }
-
-        .text-justify {
-            text-align: justify
-        }
-
-        .text-f-13 {
-            font-size: 13px
-        }
-
-        .table-contacto td {
-            font-weight: 700
-        }
-
-        .row-font {
-            font-size: 16px;
-            font-weight: 600;
-            opacity: .9
-        }
-
-        p {
-            margin: 0
-        }
-
-        [v-cloak] {
-            display: none
-        }
-    </style>
+        <link rel="stylesheet" href="calculadora.css">
 </head>
 
 <body>
@@ -109,15 +26,12 @@
 
             <a href="https://apasesoriapatrimonial.com.mx/">
                 <center>
-                    <img src="/assets/images/logoOficial.jpg" style="height:50%;width:38%;padding:3%;" alt="Logo">
+                    <img src="logoOficial.jpg" style="height:50%;width:38%;padding:3%;" alt="Logo">
                 </center>
             </a>
         </div>
         <div class="col-sm-4" style="background-color:rgb(17,36,105)!important;">&nbsp;</div>
     </div>
-
-
-
     <div class="container mt-5" id="calcApp">
         <h1>Calculadora de ahorro</h1>
         <div class="row">
@@ -176,12 +90,11 @@
                     <div class="dtf-header dtf-d-none">
                         <div class="row">
                             <div class="col-md-6 d-flex align-items-center">
-                                <img src="/assets/images/logoPDF.png" width="150" class="dtf-img"
+                                <img src="logoPDF.png" width="150" class="dtf-img"
                                 style="margin-left:40%;">
-
                             </div>
                             <div id="leyendaKiyosaki"  class="col-md-6 d-flex align-items-center justify-content-center">
-                                <div  id="leyendaKiyosaki1" class="text-color text-leyend"><small class="text-justify">"Es importante tener el
+                                <div id="leyendaKiyosaki1" class="text-color text-leyend"><small class="text-justify">"Es importante tener el
                                         sueño de retirarte joven y rico pero para poder cumplirlo, necesitas tener un
                                         plan que construya el puente de el sueño a la realidad."</small>
                                     <p class="d-flex justify-content-start"><small>Robert Kiyosaki.</small></p>

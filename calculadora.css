@@ -1,0 +1,81 @@
+.bg-cdr {
+    background-color: rgb(17, 36, 105) !important
+}
+
+#tblAP>tbody>tr {
+    font-size: 13px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: rgb(250, 250, 250);
+}
+
+.card-img {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.swal2-confirm {
+    text-decoration: none
+}
+
+.dtf-d-none {
+    display: none
+}
+
+.table-contacto td,
+.table-contacto th {
+    color: rgb(17, 36, 105) !important
+}
+
+.table-sm>:not(caption)>*>* {
+    padding-top: 1px;
+    padding-bottom: 1px
+}
+
+.text-color {
+    color: black
+}
+
+.text-leyend {
+    font-style: italic;
+    font-size: 1.1em !important
+}
+
+.text-resumen {
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+.text-leyenda {
+    color: black;
+    font-weight: 600;
+    font-size: 0.8rem
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.text-f-13 {
+    font-size: 13px
+}
+
+.table-contacto td {
+    font-weight: 700
+}
+
+.row-font {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: .9
+}
+
+p {
+    margin: 0
+}
+
+[v-cloak] {
+    display: none
+}
