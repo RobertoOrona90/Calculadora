@@ -8,7 +8,7 @@ Funcionalidades
 
     Cálculo del plan personal de retiro: La calculadora te permite ingresar información relevante, como tu nombre , edad actual, la edad a la que deseas retirarte, el monto actual de tus ahorros para el retiro, basándose en estos datos, calcula cuánto necesitarás ahorrar para alcanzar tu objetivo de retiro.
 
-Cómo Usar
+## Cómo Usar
 
     Clona este repositorio en tu máquina local o descárgalo como archivo ZIP.
     Configura un entorno de servidor web local que admita PHP (por ejemplo, XAMPP, WAMP o MAMP).
@@ -18,18 +18,21 @@ Cómo Usar
     Visualiza los resultados que te proporcionará la calculadora.
     Te da la posiblidad de generar los resultados en formato PDF
 
-Ejemplo de Uso
+## Ejemplo de Uso
 
 Supongamos que tienes 30 años, planeas retirarte a los 65 años, actualmente tienes $50,000 ahorrados para el retiro, y deseas recibir $2,000 al mes durante tu retiro.
 
 Al ingresar esta información en la calculadora, obtendrías un resultado que indica cuánto necesitas ahorrar adicionalmente para alcanzar tu objetivo de retiro.
-Contribuciones
+
+## Contribuciones
 
 Las contribuciones son bienvenidas. Si tienes alguna sugerencia, mejora o corrección, no dudes en enviar un pull request.
-Autor
 
-Este proyecto fue desarrollado por Roberto Orona .
-Licencia
+## Autor
+
+Este proyecto fue desarrollado por Roberto Orona.
+
+## Licencia
 
 Este proyecto está bajo MIT License. 
 
