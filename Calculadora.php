@@ -331,7 +331,7 @@
                         jsPDF: {
                             orientation: 'portrait',
                             unit: 'in',
-                            format: screen.width < 600 ? 'Tabloid' : 'letter'   
+                            format: 'Tabloid'
                         },
                         pagebreak: {
                             mode: ['css', 'legacy'] //, 'css', 'legacy'
