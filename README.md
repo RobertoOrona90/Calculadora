@@ -1,22 +1,22 @@
 # Calculadora
 
-
 Calculadora de Plan Personal para el Retiro
 
 Esta es una calculadora simple desarrollada en Vue montada un servidor php que te ayuda a calcular un plan personal para tu retiro. La calculadora utiliza algunos parámetros básicos para estimar cuánto necesitarás ahorrar para tu retiro, teniendo en cuenta tu edad actual, la edad a la que planeas retirarte, tu esperanza de vida y otros factores relevantes.
-Funcionalidades
 
-    Cálculo del plan personal de retiro: La calculadora te permite ingresar información relevante, como tu nombre , edad actual, la edad a la que deseas retirarte, el monto actual de tus ahorros para el retiro, basándose en estos datos, calcula cuánto necesitarás ahorrar para alcanzar tu objetivo de retiro.
+## Funcionalidades
+
+Cálculo del plan personal de retiro: La calculadora te permite ingresar información relevante, como tu nombre , edad actual, la edad a la que deseas retirarte, el monto actual de tus ahorros para el retiro, basándose en la inflación anual, calcula cuánto necesitarás ahorrar para alcanzar tu objetivo de retiro.
 
 ## Cómo Usar
 
-    Clona este repositorio en tu máquina local o descárgalo como archivo ZIP.
-    Configura un entorno de servidor web local que admita PHP (por ejemplo, XAMPP, WAMP o MAMP).
-    Coloca los archivos en el directorio raíz de tu servidor web local.
-    Abre tu navegador web y navega a la ruta donde has colocado los archivos.
-    Completa el formulario con la información solicitada y haz clic en el botón de calcular.
-    Visualiza los resultados que te proporcionará la calculadora.
-    Te da la posiblidad de generar los resultados en formato PDF
+Clona este repositorio en tu máquina local o descárgalo como archivo ZIP.
+Configura un entorno de servidor web local que admita PHP (por ejemplo, XAMPP, WAMP o MAMP).
+Coloca los archivos en el directorio raíz de tu servidor web local.
+Abre tu navegador web y navega a la ruta donde has colocado los archivos.
+Completa el formulario con la información solicitada y haz clic en el botón de calcular.
+Visualiza los resultados que te proporcionará la calculadora.
+Te da la posiblidad de generar los resultados en formato PDF
 
 ## Ejemplo de Uso
 
