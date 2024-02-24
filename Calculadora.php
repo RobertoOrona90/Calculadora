@@ -314,8 +314,8 @@
                 imprimir() {
                     let self = this,
                         elem = $('#table-section').clone();
-                    const mobileMargin = [.1, .2, 0.8, .2];
-                    const desktopMargin = [.8, .2, 1, .2]; 
+                    const mobileMargin = [.1,  0, 0, 0]; //top, left, buttom, right,
+                    const desktopMargin = [.8, .2, 1, .2];  //top, left, buttom, right,
                     elem.find('.dtf-d-none').removeClass('dtf-d-none');
                     const $elem = elem.get(0);
                     var opt = {
