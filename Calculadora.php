@@ -255,7 +255,7 @@
                         let aacPre = 0;
                         let InflacionFija = 1.0;
                         if (self.inflacion) {
-                            InflacionFija = 1.03;
+                            InflacionFija = 1.04;
                         }
 
                         for (let ix = 0; ix < self.anios - 1; ix++) {
