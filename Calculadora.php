@@ -304,11 +304,9 @@
                             confirmButtonText: self.confirmBtn,
                             cancelButtonText: self.cancelBtn
                         });
-
                         setTimeout(() => {
                             $('#btnImpRes').on('click', () => { self.imprimir(); });
                         }, 100);
-
                     }
                 },
                 imprimir() {
@@ -334,7 +332,7 @@
                             format: 'Tabloid'
                         },
                         pagebreak: {
-                            mode: ['css', 'legacy'] //, 'css', 'legacy'
+                            mode: ['css', 'legacy']
                         },
                     };
                     html2pdf().from($elem).set(opt).toPdf().get('pdf').then(function (pdf) {
