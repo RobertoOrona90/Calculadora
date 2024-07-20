@@ -129,7 +129,7 @@
                     <div class="dtf-header dtf-d-none">
                         <div class="row">
                             <div class="dtf-section mb-3 text-leyenda text-justify text-color">*Rendimiento promedio
-                                anual basado en el S&P500 de los ultimos 21 años.
+                                anual basado en el S&P500 de los últimos 24 años.
                             </div>
                         </div>
                     </div>
@@ -343,8 +343,6 @@
                             pdf.setPage(i);
                             pdf.addImage(self.imgF, 'JPEG', .2, pdf.internal.pageSize.getHeight() - 1, 8, .5);
                         }
-
-
                     }).save().catch(err => console.log(err));
                 },
             },
