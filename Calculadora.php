@@ -10,7 +10,7 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
-    <title>AP - Asesoría Patrimonial</title><!-- Bootstrap CSS -->
+    <title>AP - Asesoría Patrimonial</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -226,12 +226,10 @@
                             },
                             buttonsStyling: false
                         });
-
                     if (!$('.form-content').valid()) {
                         self.seeTable = false;
                         return;
                     };
-
                     if (self.edad > 60) {
                         self.seeTable = false;
                         swbb.fire({
@@ -245,7 +243,6 @@
                         self.seeTable = true;
                         self.results = [];
                         self.anios = 65 - self.edad
-
                         self.results.push({
                             AportacionCliente: self.aportacion * 12,
                             aac: self.aportacion * 12,
@@ -257,7 +254,6 @@
                         if (self.inflacion) {
                             InflacionFija = 1.04;
                         }
-
                         for (let ix = 0; ix < self.anios - 1; ix++) {
                             let ac = self.results[ix].AportacionCliente;
                             contador = ac * InflacionFija;
@@ -279,7 +275,6 @@
                                     rf: rf
                                 });
                             }
-
                         }
                         let constanteAportacion = self.aportacion;
                         self.aportacion = formatNumber(constanteAportacion);
@@ -339,7 +334,7 @@
                         var totalPages = pdf.internal.getNumberOfPages();
                         for (i = 1; i <= totalPages; i++) {
                             pdf.setPage(i);
-                            pdf.addImage(self.imgF, 'JPEG', .2, pdf.internal.pageSize.getHeight() - 1, 8, .5);
+                            pdf.addImage(self.imgF, 'JPEG', 1.7, pdf.internal.pageSize.getHeight() - 1, 8, .5);
                         }
                     }).save().catch(err => console.log(err));
                 },
